@@ -8,6 +8,6 @@ In my case the local directory is located on an APFS volume on my laptop, wherea
 
 The MinIO Client utilities are used here to compare those 2 directories, to locate the unique & changed objects and to upload/download/remove the desired objects based on one's needs.
 
-All collected information about the discovered objects is meant to be stored in a MySQL DB to keep track of the changes between sessions and to operate with the file/object trees efficiently.
+All collected information about the discovered objects is meant to be stored in a MySQL database to keep track of the changes between sessions and to operate with the file/object trees efficiently.
 
 ![](https://github.com/awaytocloud/mc-sync-snapshot-20250428/blob/public/preview.png)
